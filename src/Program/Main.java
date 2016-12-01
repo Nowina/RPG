@@ -1,9 +1,7 @@
 package Program;
 
-import Classes.Armors.IronArmor;
 import Classes.Potions.HealthPotion;
 import Classes.Hero;
-import Classes.Armors.LeatherArmor;
 import Classes.Potions.LevelPotion;
 /**
  * Created by dev on 29.11.16.
@@ -17,9 +15,6 @@ public class Main
         HealthPotion pot = new HealthPotion();
         John.addInventoryUsable(pot);
         John.useItem(pot);
-
-        IronArmor armo = new IronArmor();
-        John.equipItem(armo);
 
         LevelPotion potLevel = new LevelPotion();
         John.addInventoryUsable(potLevel);
